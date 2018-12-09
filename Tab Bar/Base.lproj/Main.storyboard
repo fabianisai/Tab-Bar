@@ -1,24 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BDZ-IZ-UbP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Folder-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HealthViewController" customModule="Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Folder" image="iconfinder_folder_archive_directory_organize_document_3994364 (1)" id="xsv-JY-yyr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2183" y="-84"/>
+        </scene>
+        <!--Subir-->
+        <scene sceneID="63x-VB-s3J">
+            <objects>
+                <viewController id="jsl-xv-5pr" customClass="TodayViewController" customModule="Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vzg-SS-Fur">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0D4-0n-hLH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Subir" image="iconfinder_cloud_upload_storage_backup_server_3994345 (3)" id="bpc-3S-k5U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dGR-20-E7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="-194.75262368815595"/>
+        </scene>
+        <!--Buscar-->
+        <scene sceneID="y1w-Fp-Dh4">
+            <objects>
+                <viewController id="Aa0-1b-3cC" customClass="SourcesViewController" customModule="Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aeD-ze-pBo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.86398902089999996" blue="0.29905568760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Xcx-Xv-ZwX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buscar" image="iconfinder_search_magnifying_glass_find_magnifier_zoom_3994401" id="CRl-3h-PNR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTe-E5-t9M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434" y="475"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="hD3-bB-3Hp">
+            <objects>
+                <viewController id="I48-Sc-xDR" customClass="MedicalViewController" customModule="Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7uP-ca-DSl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.71044984040000003" green="1" blue="0.60599495069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fTR-W3-kio"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Menu" image="iconfinder_menu_more_detail_list_interface_3994388" id="R3v-DM-R8a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rY-Vx-JEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="579"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3zw-NF-pYi">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BDZ-IZ-UbP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zUG-0k-U6e">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jsl-xv-5pr" kind="relationship" relationship="viewControllers" id="vR7-gx-prC"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="NBR-EW-dV0"/>
+                        <segue destination="Aa0-1b-3cC" kind="relationship" relationship="viewControllers" id="fYt-vv-wj9"/>
+                        <segue destination="I48-Sc-xDR" kind="relationship" relationship="viewControllers" id="6KI-0I-3bm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U9p-7o-gXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="552.79999999999995" y="50.824587706146929"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconfinder_cloud_upload_storage_backup_server_3994345 (3)" width="32" height="32"/>
+        <image name="iconfinder_folder_archive_directory_organize_document_3994364 (1)" width="32" height="32"/>
+        <image name="iconfinder_menu_more_detail_list_interface_3994388" width="32" height="32"/>
+        <image name="iconfinder_search_magnifying_glass_find_magnifier_zoom_3994401" width="32" height="32"/>
+    </resources>
 </document>

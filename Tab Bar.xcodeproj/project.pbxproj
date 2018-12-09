@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8CE7708821BDC0B7007D4D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7708721BDC0B7007D4D27 /* AppDelegate.swift */; };
-		8CE7708A21BDC0B7007D4D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7708921BDC0B7007D4D27 /* ViewController.swift */; };
 		8CE7708D21BDC0B7007D4D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE7708B21BDC0B7007D4D27 /* Main.storyboard */; };
 		8CE7708F21BDC0BA007D4D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE7708E21BDC0BA007D4D27 /* Assets.xcassets */; };
 		8CE7709221BDC0BA007D4D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE7709021BDC0BA007D4D27 /* LaunchScreen.storyboard */; };
+		8CE7709C21BDC4E1007D4D27 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7709B21BDC4E1007D4D27 /* TodayViewController.swift */; };
+		8CE7709E21BDC501007D4D27 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7709D21BDC501007D4D27 /* HealthViewController.swift */; };
+		8CE770A021BDC513007D4D27 /* MedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7709F21BDC513007D4D27 /* MedicalViewController.swift */; };
+		8CE770A221BDC528007D4D27 /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE770A121BDC528007D4D27 /* SourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CE7708421BDC0B7007D4D27 /* Tab Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE7708721BDC0B7007D4D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CE7708921BDC0B7007D4D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CE7708C21BDC0B7007D4D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CE7708E21BDC0BA007D4D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CE7709121BDC0BA007D4D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE7709321BDC0BA007D4D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE7709B21BDC4E1007D4D27 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8CE7709D21BDC501007D4D27 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		8CE7709F21BDC513007D4D27 /* MedicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalViewController.swift; sourceTree = "<group>"; };
+		8CE770A121BDC528007D4D27 /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				8CE7708721BDC0B7007D4D27 /* AppDelegate.swift */,
-				8CE7708921BDC0B7007D4D27 /* ViewController.swift */,
 				8CE7708B21BDC0B7007D4D27 /* Main.storyboard */,
 				8CE7708E21BDC0BA007D4D27 /* Assets.xcassets */,
 				8CE7709021BDC0BA007D4D27 /* LaunchScreen.storyboard */,
 				8CE7709321BDC0BA007D4D27 /* Info.plist */,
+				8CE7709B21BDC4E1007D4D27 /* TodayViewController.swift */,
+				8CE7709D21BDC501007D4D27 /* HealthViewController.swift */,
+				8CE7709F21BDC513007D4D27 /* MedicalViewController.swift */,
+				8CE770A121BDC528007D4D27 /* SourcesViewController.swift */,
 			);
 			path = "Tab Bar";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE7708A21BDC0B7007D4D27 /* ViewController.swift in Sources */,
+				8CE770A021BDC513007D4D27 /* MedicalViewController.swift in Sources */,
+				8CE770A221BDC528007D4D27 /* SourcesViewController.swift in Sources */,
+				8CE7709C21BDC4E1007D4D27 /* TodayViewController.swift in Sources */,
+				8CE7709E21BDC501007D4D27 /* HealthViewController.swift in Sources */,
 				8CE7708821BDC0B7007D4D27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
